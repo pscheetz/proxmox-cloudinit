@@ -5,7 +5,7 @@
 # Since I handle the configuration in Terraform and Ansible, I wanted to keep these Cloud-Init templates as minimal as possible.
 
 # Variables - Change these to match your environment
-VM_ID=1200 # VMIDs are globally unique in your PVE server/cluster. The first template will have this ID; all others will increment by 1. 
+VM_ID=10000 # VMIDs are globally unique in your PVE server/cluster. The first template will have this ID; all others will increment by 1. 
 STORAGE=zfs-nvme # Change to your storage 
 SSD=1 # set to 0 if HDD
 NET_BRIDGE="vmbr0"
