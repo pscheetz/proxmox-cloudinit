@@ -16,7 +16,7 @@ It creates a minimal Cloud-Init template for each configured image. Requires lat
 
 ### Setting Variables
 Most likely my Proxmox environment does not match yours. Be sure to update the Variables section with with your own values before running. Pay special attention to:
-- `VM_ID`
+- `VM_ID` - Make sure this number is higher than all of your other VM IDs. The script is set to 10000, but check just in case
 - `STORAGE`
 - `NET_BRIDGE`
 
